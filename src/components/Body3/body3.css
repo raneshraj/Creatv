@@ -1,0 +1,57 @@
+
+*{
+    padding:0;
+  margin:0;
+
+}
+    .gradient-button {
+        background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-position 0.3s ease;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: -20px;
+      }
+      
+      .gradient-button:hover {
+        background-position: right center;
+        background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);
+      }
+
+.card{
+background: transparent;
+color: white;
+
+}
+
+.card-title{
+  font-weight: 400;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.card-text{
+  font-size: 0.8rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  
+}
+
+.bottom {
+  width: 100% !important;
+  background-color: #6136ff;
+  transform: rotate(1.5deg);
+  transform-origin: left top;
+  
+}
+
+
+
+
+
+

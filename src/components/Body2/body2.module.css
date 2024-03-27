@@ -1,0 +1,156 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: fit-content;
+}
+.scroll {
+  height: 500px; 
+
+}
+.top {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.video-instruc{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: smaller; 
+  }
+
+  p{
+    font-size: 0.5rem;
+    width: 80%;
+    text-align: center;
+    font-weight: 300;
+    /* margin-left: 50px; */
+  }
+
+.button-container{
+  justify-content: left; 
+  align-items: left;
+  background-color: transparent;
+  outline: none;
+  font-size: 2rem;
+  margin-left: 80px;
+}
+  
+.cta {
+  margin-top: -50px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hoverUnderlineAnimation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hoverUnderlineAnimation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hoverUnderlineAnimation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  flex-basis: 25%;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  flex-basis: 70%;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #fff;
+  flex-basis: 5%;
+  text-align: right;
+}
+
+hr{
+  color: gray;
+}
+
+.bottom {
+  width: 100% !important;
+  background-color: #6136ff;
+  transform: rotate(1.5deg);
+  transform-origin: left top;
+  
+}
+
+span{
+  font-size: 20px;
+}
+
+
+
+

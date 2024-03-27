@@ -1,0 +1,98 @@
+import React from "react";
+import toge from "./together.png";
+
+function Body4() {
+  return (
+    <>
+      <div className="container-fluid mt-4">
+        <div className="row">
+          <div className="col-md-6">
+            <img
+              src={toge}
+              className="img-fluid mx-auto d-block pt-5 px-5"
+              alt="..."
+            />
+            <p className="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua utenim
+              ad minim veniam quis.
+            </p>
+        
+          </div>
+          <div className="col-md-6">
+            <div className="d-flex flex-column align-items-start mt-5">
+              <h3>&#x2692; Perfect Sketching</h3>
+              <p className="text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                utenim ad minim.
+              </p>
+              
+            </div>
+            <hr />
+            <div className="d-flex flex-column align-items-start mt-5">
+              <h3>&#x1F5A5;Digital Prototyping</h3>
+              <p className="text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                utenim ad minim.
+              </p>
+             
+            </div>
+            <hr />
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          <div className="col-md-6 offset-md-6">
+            <div className="d-flex flex-column align-items-start">
+              <h3> &#x1F3A8;Design System</h3>
+              <p className="text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                utenim ad minim.
+              </p>
+            </div>
+            <hr />
+            <div className="d-flex flex-column align-items-start mt-5">
+              <h3> &#x1F4A1;Design Concept</h3>
+              <p className="text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                utenim ad minim.
+              </p>
+            </div>
+            <hr />
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          <div className="col-md-6 offset-md-6">
+            <div className="d-flex flex-column align-items-start">
+              <h3>&#x1F4D2; Brand Consultation</h3>
+            
+            <p className="text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua utenim
+              ad minim.
+            </p>
+            </div>
+            <hr />
+         
+            <div className="d-flex flex-column align-items-start mt-5">
+              <h3> &#x1F4F1;Mobile App Design</h3>
+            </div>
+            <p className="text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua utenim
+              ad minim.
+            </p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Body4;

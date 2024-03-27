@@ -1,0 +1,121 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: fit-content;
+  font-size: 16px;
+  
+}
+
+.contact-btn {
+  border:10px solid red;
+border-radius: 0;
+background-color:#6136ff;
+color:white;
+/* height:70px; */
+font-weight:500;
+font-size:18px;
+width:200px;
+}
+
+.navFirst{
+  background-color:#8664bd;
+  color: rgb(179, 179, 45);
+  
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 25px;
+  font-weight: 400;
+
+}
+
+.containner{
+  padding:0px;
+}
+
+.d{
+/* border:10px solid blue;  */
+font-weight: 700;
+margin-left:50px;
+color:white;
+font-size:16px;
+font-weight:500;
+}
+
+.navitem{
+ 
+  font-size: 16px; 
+  font-weight: 600;
+  color: beige;
+}
+.navitem a{
+  color:#fff
+}
+
+.d1{
+  /* border:10px solid blue;  */
+  font-weight: 700;
+  margin-left:50px;
+  color:white;
+  font-size:16px;
+  font-weight:500;
+}
+
+
+.nav-link{
+  color:white;
+
+}
+
+.nav-link:hover{
+  color:#6136ff;
+
+}
+
+
+d1:hover{
+color: #6136ff;
+}
+
+ul{
+/* border:10px solid black; */
+margin-left:700px;
+}
+
+.ank{
+position:relative;
+}
+
+
+
+.ank img {
+  display: block;
+  margin: 0 auto;
+}
+
+i{
+ margin-right: 30px;
+
+}
+ul{
+  text-align: right;
+  margin-right:  -250px;
+}
+
+@media (max-width: 767px) {
+  .navFirst {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+  .ul {
+    margin-left: 0; /* Remove large left margin on small screens */
+  }
+  .btn {
+    margin-left: 10px; /* Adjust button margin for smaller screens */
+  }
+  .d, .d1 {
+    margin-left: 20px; /* Adjust text margin for smaller screens */
+  }
+}
+
+
+
