@@ -12,7 +12,7 @@ export default function Body2() {
           <div className="col-md-5 scroll">
             <img
               src={jump}
-              className={`${styles.imgFluid} ms-4 mx-auto pt-5 px-5`}
+              className={`${styles.imgFluid } img-fluid ms-4 mx-auto pt-5 px-5`}
               alt="..."
             />
           </div>
@@ -42,7 +42,7 @@ export default function Body2() {
             </p>
             <button className={styles.cta}>
               <span className={styles.hoverUnderlineAnimation}>
-                {" "}LEARN MORE &nbsp;
+                LEARN MORE &nbsp;
                 <i className="fa-solid fa-arrow-right fa-sm arrow-horizontal"></i>
               </span>
             </button>

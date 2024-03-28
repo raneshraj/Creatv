@@ -1,0 +1,27 @@
+.ourc{
+    
+text-decoration: none;
+
+
+}
+.ourc li{
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ourc li a{
+  text-decoration: none;
+  color: #022334;
+}
+
+.vertical-gap {
+    margin-bottom: 1em; /* adjust the value as needed */
+  }
+
+
+
+
+
+
+
+

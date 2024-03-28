@@ -10,19 +10,19 @@ import bottom2 from "./bottom2.png";
 function Body1() {
   return (
     <>
-      <div className={styles.containerFlu}>
+      <div className={` conainer-fluid`} >
         <div className="row">
-          <div className="col">
-            <img src={creative} className={`ms-5 ps-5 mx-2 pt-5`} alt="..." />
-            <img className={`ms-5 ps-5 pt-1`} src={design} alt="" />
-            <img className={`ms-5 ps-5 mx-2 pt-1`} src={agency} alt="" />
+          <div className="col-md-6">
+            <img src={creative} className={`ms-5 img-fluid ps-5 mx-2 pt-5 ${styles.imgResponsive}`} alt="..." />
+            <img className={`ms-5 ps-5 img-fluid pt-1 ${styles.imgResponsive}`} src={design} alt="" />
+            <img className={`ms-5 ps-5 img-fluid mx-2 pt-1 ${styles.imgResponsive}`} src={agency} alt="" />
           </div>
-          <div className={`col d-flex justify-content-center mx-5}`}>
-            <img className={styles.imgFluid} src={side} alt="" />
+          <div className={` col d-flex justify-content-center mx-5}`}>
+            <img className={`${styles.sideb}`} src={side} alt="" />
           </div>
         </div>
         <div className="row d-flex justify-content-center">
-          <div className={`${styles.btm} center col-md-4`}>
+          <div className={`${styles.btm} ${styles.imgResponsive} center col-md-4`}>
             <img
               src={bottom}
               className={`${styles.imgFluid} ms-4 mx-auto `}
